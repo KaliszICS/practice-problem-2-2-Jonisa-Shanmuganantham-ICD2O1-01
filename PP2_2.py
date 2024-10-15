@@ -7,20 +7,32 @@
 
 def q1(): 
   integer = int(input("Input an integer: "))
-  if num == 5:
+  if integer == 5:
     print("The number is Five")
   else:
     print("The number is not Five")
 
 def q2(): 
-  number = input("Input a number:")
+  number = int(input("Input a number: "))
+  if number > 0:
+    print("Positive")
+  else:
+    print("Negative")
+
 def q3(): 
-  #Write Assignment code here
+  number = integer(input("Input a number: "))
+  integer = number % 2
+  if number == 0:
+    print("Even")
+  else:
+    print("Odd")
 
 def q4(): 
-  #Write Assignment code here
-
-
+  hello = input('Type "Hello": ')
+  if hello == "Hello":
+    print("The word is Hello")
+  else:
+    print("The word is not Hello")
 
 
 #Do not alter the following code
