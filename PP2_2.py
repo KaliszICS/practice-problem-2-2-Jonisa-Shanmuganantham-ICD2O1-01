@@ -20,7 +20,7 @@ def q2():
     print("Negative")
 
 def q3(): 
-  number = integer(input("Input a number: "))
+  number = int(input("Input a number: "))
   integer = number % 2
   if number == 0:
     print("Even")
@@ -32,15 +32,13 @@ def q4():
   if hello == "Hello":
     print("The word is Hello")
   else:
-    print("The word is not Hello")
+    print("The word is not Hello") 
 
 
 #Do not alter the following code
 #Comment out the following code when running your tests
 
-'''
 q1()
 q2()
 q3()
 q4()
-'''
