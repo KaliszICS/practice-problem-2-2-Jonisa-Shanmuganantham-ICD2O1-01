@@ -1,12 +1,19 @@
-
+'''
+    Lesson: Else
+    Author: Jonisa Shanmuganantham
+    Date Created: October 15, 2024
+    Date Last Modified: October 15, 2024
+'''
 
 def q1(): 
-  #Write Assignment code here
-
+  integer = int(input("Input an integer: "))
+  if num == 5:
+    print("The number is Five")
+  else:
+    print("The number is not Five")
 
 def q2(): 
-  #Write Assignment code here
-
+  number = input("Input a number:")
 def q3(): 
   #Write Assignment code here
 
